@@ -43,9 +43,9 @@ module.exports = {
         ]
     },
     plugins: [
-        new CopyWebpackPlugin([
-            { from: "*.html", context: "src/" },
-        ]),
+        new CopyWebpackPlugin({patterns: [
+            "src/*.html"
+        ]}),
         new webpack.SourceMapDevToolPlugin({})
     ]
 };
