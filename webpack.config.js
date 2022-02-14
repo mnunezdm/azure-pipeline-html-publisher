@@ -14,6 +14,10 @@ module.exports = {
         'node_modules/azure-devops-extension-sdk',
       ),
     },
+    fallback: {
+      stream: require.resolve('stream-browserify'),
+      buffer: require.resolve('buffer'),
+    },
   },
   stats: {
     warnings: false,
@@ -52,6 +56,12 @@ module.exports = {
     ],
   },
   plugins: [
+    new webpack.ProvidePlugin({
+      Buffer: ['buffer', 'Buffer'],
+    }),
+    new webpack.ProvidePlugin({
+      process: 'process/browser',
+    }),
     new CopyWebpackPlugin({
       patterns: [
         {
