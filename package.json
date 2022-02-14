@@ -1,8 +1,8 @@
 {
-  "name": "azure-pipelines-html-report",
-  "version": "1.0.8",
+  "name": "azure-pipelines-html-publisher",
+  "version": "0.0.1",
   "private": true,
-  "author": "Jakub Rumpca",
+  "author": "Miguel Núñez Díaz-Montes",
   "dependencies": {
     "@material-ui/core": "^4.10.1",
     "@material-ui/icons": "^4.9.1",

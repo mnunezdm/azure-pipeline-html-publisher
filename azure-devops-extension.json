@@ -1,10 +1,10 @@
 {
     "manifestVersion": 1,
-    "id": "azure-pipelines-html-report",
-    "publisher": "JakubRumpca",
-    "version": "1.0.8",
-    "author": "Jakub Rumpca",
-    "name": "Html Viewer Dev",
+    "id": "azure-pipelines-html-publisher",
+    "publisher": "Miguel Núñez Díaz-Montes",
+    "version": "0.0.1",
+    "author": "Miguel Núñez Díaz-Montes",
+    "name": "Html Publisher",
     "description": "Embed HTML report in Azure Pipelines",
     "public": false,
     "categories": ["Azure Pipelines"],
@@ -19,7 +19,7 @@
     ],
     "repository": {
         "type": "git",
-        "uri": "https://github.com/JakubRumpca/azure-pipeline-html-report"
+        "uri": "https://github.com/mnunezdm/azure-pipelines-html-publisher"
     },
     "content": {
         "details": {
@@ -51,12 +51,12 @@
             "includes": ["ms.vss-releaseManagement-web.release-service-data-external"]
         },
         {
-            "id": "PublishHtmlReport",
+            "id": "PublishHtml",
             "type": "ms.vss-distributed-task.task",
             "targets": ["ms.vss-distributed-task.tasks"],
             "properties": {
-                "name": "PublishHtmlReport",
-                "displayName": "Publish HTML Report"
+                "name": "PublishHtml",
+                "displayName": "Publish HTML"
             }
         }
     ],

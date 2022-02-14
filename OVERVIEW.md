@@ -1,4 +1,4 @@
-# azure-pipeline-html-report
+# azure-pipelines-html-publisher
 
 
 Azure DevOps extension that provides a task for publishing report in a HTML format and embeds it into a Build and Release pages.

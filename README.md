@@ -1,5 +1,8 @@
-# azure-pipeline-html-report
+# azure-pipelines-html-publisher
 
+```
+DISCLAIMER: This repository has been forked from https://github.com/JakubRumpca/azure-pipeline-html-report
+```
 
 Azure DevOps extension that provides a task for publishing report in a HTML format and embeds it into a Build and Release pages.
 
