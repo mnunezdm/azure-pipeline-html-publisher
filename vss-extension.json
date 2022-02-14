@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "azure-pipelines-html-publisher",
-    "publisher": "Miguel Núñez Díaz-Montes",
+    "publisher": "mnunezdm",
     "version": "0.0.1",
     "author": "Miguel Núñez Díaz-Montes",
     "name": "Html Publisher",
