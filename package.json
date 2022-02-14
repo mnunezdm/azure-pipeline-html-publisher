@@ -1,6 +1,6 @@
 {
   "name": "azure-pipelines-html-publisher",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "private": true,
   "author": "Miguel Núñez Díaz-Montes",
   "dependencies": {
