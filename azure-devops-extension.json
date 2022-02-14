@@ -62,8 +62,8 @@
     ],
     "files": [
         {
-            "path": "./PublishHtmlReport",
-            "packagePath": "PublishHtmlReport",
+            "path": "./PublishHtml",
+            "packagePath": "PublishHtml",
             "addressable": false
         },
         {

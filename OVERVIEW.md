@@ -12,8 +12,8 @@ This task takes one parameter - required `reportDir` which is a path to report d
 
 ```YAML
 steps:
-  - task: PublishHtmlReport@1
-    displayName: 'Publish HTML Report'
+  - task: PublishHtml@1
+    displayName: 'Publish HTML'
     inputs:
-      reportDir: '$(ResultsPath)/reportName.html'
+      reportDir: '$(ResultsPath)/index.html'
 ```
