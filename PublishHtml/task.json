@@ -1,22 +1,22 @@
 {
-  "id": "bf52d8fd-c399-4acd-98c7-a03ceee2a974",
-  "name": "PublishHtmlReport",
-  "friendlyName": "Publish Html Report",
-  "description": "Publish Html Report",
+  "id": "558c62c3-f0ad-4c2c-874c-9524a225a53f",
+  "name": "PublishHtml",
+  "friendlyName": "Publish Html",
+  "description": "Publish Html",
   "author": "",
-  "helpMarkDown": "Replace with markdown to show in help",
+  "helpMarkDown": "Publish an HTML file in the pipeline job detail",
   "category": "Utility",
   "visibility": [
     "Build"
   ],
   "demands": [],
   "version": {
-    "Major": "1",
+    "Major": "0",
     "Minor": "0",
-    "Patch": "8"
+    "Patch": "1"
   },
   "minimumAgentVersion": "1.95.0",
-  "instanceNameFormat": "Publish Html Report",
+  "instanceNameFormat": "Publish Html",
   "inputs": [
     {
       "name": "tabName",
@@ -27,16 +27,16 @@
       "helpMarkDown": "Name of the tab displayed in the report"
     },
     {
-      "name": "reportDir",
+      "name": "htmlFilePath",
       "type": "filePath",
       "label": "HTML file Directory",
       "defaultValue": "",
       "required": true,
-      "helpMarkDown": "HTML file directory where PublishHtmlReport is run."
+      "helpMarkDown": "HTML file directory where to be published"
     }
   ],
   "execution": {
-    "Node10": {
+    "Node16": {
       "target": "index.js",
       "argumentFormat": ""
     }
