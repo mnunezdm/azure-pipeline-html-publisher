@@ -1,24 +1,24 @@
 steps:
-- task: NodeTool@0
-  inputs:
-    versionSpec: '16.x'
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '16.x'
 
-- task: Npm@1
-  displayName: 'NPM: Install Task Dependencies'
-  inputs:
-    workingDir: PublishHtml
-    verbose: false
+  - task: Npm@1
+    displayName: 'NPM: Install Task Dependencies'
+    inputs:
+      workingDir: PublishHtml
+      verbose: false
 
-- task: Npm@1
-  displayName: 'npm install extension'
-  inputs:
-    workingDir: .
-    verbose: false
+  - task: Npm@1
+    displayName: 'npm install extension'
+    inputs:
+      workingDir: .
+      verbose: false
 
-- task: Npm@1
-  displayName: 'build extension'
-  inputs:
-    command: custom
-    workingDir: .
-    verbose: false
-    customCommand: 'run build:cidev'
+  - task: Npm@1
+    displayName: 'build extension'
+    inputs:
+      command: custom
+      workingDir: .
+      verbose: false
+      customCommand: 'run build:cidev'

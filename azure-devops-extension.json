@@ -7,11 +7,15 @@
     "name": "Html Publisher",
     "description": "Embed HTML report in Azure Pipelines",
     "public": false,
-    "categories": ["Azure Pipelines"],
+    "categories": [
+        "Azure Pipelines"
+    ],
     "icons": {
         "default": "icon.png"
     },
-    "tags": ["Preview"],
+    "tags": [
+        "Preview"
+    ],
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
@@ -40,20 +44,28 @@
             "id": "build-html-report-tab",
             "type": "ms.vss-build-web.build-results-tab",
             "description": "Embed HTML files viewer in Azure Pipelines Release",
-            "targets": ["ms.vss-build-web.build-results-view"],
+            "targets": [
+                "ms.vss-build-web.build-results-view"
+            ],
             "properties": {
                 "name": "HTML Viewer",
                 "uri": "dist/tabContent.html",
                 "registeredObjectId": "registerBuild",
-                "supportsTasks": ["bf52d8fd-c399-4acd-98c7-a03ceee2a974"],
+                "supportsTasks": [
+                    "bf52d8fd-c399-4acd-98c7-a03ceee2a974"
+                ],
                 "dynamic": true
             },
-            "includes": ["ms.vss-releaseManagement-web.release-service-data-external"]
+            "includes": [
+                "ms.vss-releaseManagement-web.release-service-data-external"
+            ]
         },
         {
             "id": "PublishHtml",
             "type": "ms.vss-distributed-task.task",
-            "targets": ["ms.vss-distributed-task.tasks"],
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
             "properties": {
                 "name": "PublishHtml",
                 "displayName": "Publish HTML"
