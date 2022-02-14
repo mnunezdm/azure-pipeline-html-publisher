@@ -36,7 +36,7 @@
     }
   ],
   "execution": {
-    "Node16": {
+    "Node10": {
       "target": "index.js",
       "argumentFormat": ""
     }
