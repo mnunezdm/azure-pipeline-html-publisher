@@ -38,7 +38,7 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
-    "clean": "rimraf ./dist",
+    "clean": "rimraf --no-glob ./dist",
     "build:cidev": "npm run clean && webpack --mode development",
     "build": "npm run clean && webpack --mode development",
     "postbuild": "npm run package-extension",
