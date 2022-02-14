@@ -7,6 +7,7 @@
   "dependencies": {
     "azure-pipelines-task-lib": "^3.1.10",
     "cheerio": "^1.0.0-rc.10",
+    "concat-map": "^0.0.1",
     "dashify": "^2.0.0",
     "fs-extra": "^10.0.0",
     "globby": "^13.1.1",
