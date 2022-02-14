@@ -6,11 +6,16 @@
   "private": true,
   "dependencies": {
     "azure-pipelines-task-lib": "^3.1.10",
+    "balanced-match": "^2.0.0",
+    "base64-inline-loader": "^2.0.1",
     "cheerio": "^1.0.0-rc.10",
+    "color-name": "^1.1.4",
     "concat-map": "^0.0.1",
     "dashify": "^2.0.0",
+    "escape-string-regexp": "^5.0.0",
     "fs-extra": "^10.0.0",
-    "globby": "^13.1.1",
+    "globby": "^11.0.4",
+    "has-flag": "^5.0.1",
     "hat": "0.0.3"
   },
   "scripts": {},
