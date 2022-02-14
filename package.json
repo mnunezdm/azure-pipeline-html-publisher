@@ -46,7 +46,8 @@
     "postinstall": "cd PublishHtml && npm install",
     "test": "echo No test available",
     "prune": "npm prune --production --ignore-scripts",
-    "package-extension": "tfx extension create --manifest-globs azure-devops-extension.json --overrides-file dev_manifest.json"
+    "package-extension": "tfx extension create",
+    "publish": "tfx extension publish"
   },
   "eslintConfig": {
     "extends": "react-app"
