@@ -16,7 +16,9 @@
     "fs-extra": "^10.0.0",
     "globby": "^11.0.4",
     "has-flag": "^5.0.1",
-    "hat": "0.0.3"
+    "hat": "0.0.3",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3"
   },
   "scripts": {},
   "author": "",
