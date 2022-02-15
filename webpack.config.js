@@ -52,14 +52,7 @@ module.exports = {
     ],
   },
   plugins: [
-    new CopyWebpackPlugin({
-      patterns: [
-        {
-          from: '*.html',
-          context: 'src/',
-        },
-      ],
-    }),
+    new CopyWebpackPlugin([{ from: '*.html', context: 'src/' }]),
     new webpack.SourceMapDevToolPlugin({}),
   ],
 };
