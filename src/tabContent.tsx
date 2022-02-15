@@ -78,7 +78,7 @@ abstract class AttachmentClient {
     if (this.authHeaders === undefined) {
       console.log('Get access token');
       const accessToken = await SDK.getAccessToken();
-      const b64encodedAuth = btoa(':' + accessToken);
+      const b64encodedAuth = Buffer.from(':' + accessToken).toString('base64');
       this.authHeaders = {
         headers: { Authorization: 'Basic ' + b64encodedAuth },
       };
