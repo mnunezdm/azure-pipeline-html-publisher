@@ -90,7 +90,6 @@ abstract class AttachmentClient {
       throw new Error(response.statusText);
     }
     const responseText = await response.text();
-    console.log(responseText);
     return responseText;
   }
 }
@@ -157,7 +156,7 @@ export default class TaskAttachmentPanel extends React.Component<TaskAttachmentP
         // Conditionally add counter for multistage pipeline
         const name =
           metadata[2] !== '__default'
-            ? `${metadata[2]} #${metadata[3]}`
+            ? `${metadata[0]} #${metadata[2]}`
             : metadata[0];
 
         tabs.push(
