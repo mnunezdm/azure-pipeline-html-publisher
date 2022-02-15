@@ -21,3 +21,8 @@ steps:
       tabName: 'Super duper html'
       htmlFilePath: '$(ResultsPath)/index.html'
 ```
+
+## Thanks
+
+- [JakubRumpca](https://github.com/JakubRumpca/): for the initial version of the repository
+- [Alfredo Hernandez](https://www.flaticon.es/autores/alfredo-hernandez): for the cool icon
